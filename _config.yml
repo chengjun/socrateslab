@@ -1,4 +1,6 @@
-baseurl: '/socrateslab'
+url: "https://chengjun.github.io"
+baseurl: "/socrateslab"
+repository: chengjun/socrateslab
 permalink: pretty
 title: 'Jekyll Serif'
 
