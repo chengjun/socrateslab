@@ -36,13 +36,24 @@ This theme has been tested to work with Github Pages (and Github Project Pages).
 
 When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
 
-For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
-
 - Create a Fork of this GitHub Repository. If you want the theme to be hosted at https://username.github.io/ rather than https://username.github.io/repository_name you should name the repository username.github.io.
-- Edit the _config.yml file adding the following two lines. url: "https://username.github.io/repository_name" remote_theme: zerostaticthemes/jekyll-serif-theme
-- You will also need to update the baseurl in the _config.yml file if you're hosting this in a repository otherwise all the css, images and paths will be broken. For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have baseurl: "/jekyll-serif-theme/"
-- Go to Repository Settings > Pages. a. Click Pages under Code and automation. b. Change Source under Build and deployment from Deploy from a branch to GitHub Actions.
-- Go to the Actions tab on your repository. a. Start a New workflow and search for Jekyll. b. Click Configure under the Jekyll workflow (not GitHub Pages Jekyll workflow). c. Review the change and click Commit changes.
+- Edit the _config.yml file adding the following two lines.
+   - url: "https://username.github.io/repository_name"
+   - remote_theme: zerostaticthemes/jekyll-serif-theme
+
+#### hosting in a repository
+
+You will also need to update the baseurl in the _config.yml file if you're hosting this in a repository otherwise all the css, images and paths will be broken. 
+- For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have baseurl: "/jekyll-serif-theme/"
+- Go to Repository **Settings > Pages**.
+  - a. Click Pages under Code and automation.
+  - b. Change Source under **Build and deployment** from **Deploy from a branch** to **GitHub Actions**.
+- Go to the Actions tab on your repository.
+  -  a. Start a New workflow and search for **Jekyll**.
+  -  b. Click Configure under the **Jekyll workflow** (not GitHub Pages Jekyll workflow).
+  -  c. Review the change and click Commit changes.
+ 
+  
 ## Extras
 
 ### License
