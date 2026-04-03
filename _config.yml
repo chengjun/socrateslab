@@ -1,6 +1,6 @@
-url: "https://chengjun.github.io"
-baseurl: "/socrateslab"
-repository: chengjun/socrateslab
+url: "https://chengjun.github.io/scorateslab"
+baseurl: "/socrateslab/"
+remote_theme: zerostaticthemes/jekyll-serif-theme
 permalink: pretty
 title: 'Jekyll Serif'
 
